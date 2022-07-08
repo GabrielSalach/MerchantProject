@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CameraBoundingBox" Collapsed="true">
+    <Position X="16.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAACAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Camera\CameraBoundingBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraController" Collapsed="true">
+    <Position X="18.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABAMAACAAAAEAAAAAAAAEAABIEAAAABAAAIUAAGk=</HashCode>
+      <FileName>Assets\Camera\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crafter">
+    <Position X="3" Y="16.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAARABCIAAAAIBIAAAAACBAEIUAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Crafting\Crafter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="crafterClass" />
+      <Field Name="currentRecipe" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="knownRecipes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CrafterClass" Collapsed="true">
+    <Position X="0.5" Y="18.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="CrafterClass.RecipeByLevel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Crafting\CrafterClass.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Crafting\CrafterClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CraftingWindow">
+    <Position X="13" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAgAAAAAAIgBABAAAAAgAAAAAAAAMA=</HashCode>
+      <FileName>Assets\Crafting\CraftingWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="recipes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CraftingWindowPopup">
+    <Position X="19.25" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIACAAAAABBAQAAAAAAABAgCACAAAAAAEACEA=</HashCode>
+      <FileName>Assets\Crafting\CraftingWindowPopup.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="selectedRecipe" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Recipe" Collapsed="true">
+    <Position X="11.75" Y="13.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Recipe.ItemCount" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Crafting\Recipe.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAgAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Crafting\Recipe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterUnit">
+    <Position X="3.5" Y="14" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CharacterUnit.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Hub\CharacterUnit.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Hub\CharacterUnit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="assignedRoom" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Room" Collapsed="true">
+    <Position X="0.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAEQAAAAAKIAEAAAABAYAAAAAAAAACAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Hub\Rooms\Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoomBuilder" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="RoomBuilder.Floor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Hub\Rooms\RoomBuilder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BIEIAACgAAAAKAAAAAAAAAAAAEBAAAQAAAABAACgAEA=</HashCode>
+      <FileName>Assets\Hub\Rooms\RoomBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoomData" Collapsed="true">
+    <Position X="16.75" Y="3.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="RoomData.RoomType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Hub\Rooms\RoomData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Hub\Rooms\RoomData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryManager">
+    <Position X="7.5" Y="2.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAAAAAAAAAEAAgURABAAMAIAAAAAEAEA=</HashCode>
+      <FileName>Assets\Inventory\InventoryManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="window" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="allItems" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="InventoryWindow">
+    <Position X="3.75" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAACAAAAAAAAAABBABQAAAAAAAGAQAAAEA=</HashCode>
+      <FileName>Assets\Inventory\InventoryWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="selectedItemSlot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Item.ItemType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Inventory\Item.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQABCAAAAAAAAAAAAAAABABAAAAAAAAAAAAAoA=</HashCode>
+      <FileName>Assets\Inventory\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemSlot" Collapsed="true">
+    <Position X="1.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAIEAABAQAAAAAAAAAAAAQACAAAAAAAEA=</HashCode>
+      <FileName>Assets\Inventory\ItemSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursor">
+    <Position X="7.25" Y="10" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAACCAAAAAAAAAAAAIAAAAEAAEAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Player\Cursor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="hoveringInteractable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Interactable">
+    <Position X="4.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAABAAAAAEAAAAAACAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Player\Interactable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="outliner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpriteOutliner" Collapsed="true">
+    <Position X="1.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAABAAAAAIAAAAAAAAACAAGAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Player\SpriteOutliner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterInfoWindow">
+    <Position X="6.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Questing and Combat\CharacterInfoWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hero">
+    <Position X="6.25" Y="14" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAQUAAACAAAAgAAEIAgAAjABEAAAAAgBAAAAAACAA=</HashCode>
+      <FileName>Assets\Questing and Combat\Hero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeroClass" Collapsed="true">
+    <Position X="15" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIAAAAECAAAEDEABAAEACBAAAAABAIAEAAQAYAA=</HashCode>
+      <FileName>Assets\Questing and Combat\HeroClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoneyBag" Collapsed="true">
+    <Position X="16.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgIAACAAAAAAAAAAAAAAEIBAAAAAAAEBAAAAAEA=</HashCode>
+      <FileName>Assets\Selling\MoneyBag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SellingWindowPopup">
+    <Position X="16" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAoACAABAAABAQAAAAAAABAACAAAAAAAAEQCEA=</HashCode>
+      <FileName>Assets\Selling\SellingWindowPopup.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="selectedItem" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SavefileManager" Collapsed="true">
+    <Position X="18.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAEAAAAAAIAAAAgAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Serialization\SavefileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="buttontest" Collapsed="true">
+    <Position X="15" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UI\Debug\buttontest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TooManyItems">
+    <Position X="10" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UI\Debug\TooManyItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotificationsManager" Collapsed="true">
+    <Position X="18.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwBACAAACAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAA=</HashCode>
+      <FileName>Assets\UI\NotificationsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Window">
+    <Position X="11.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>MESEEBUEACAAAQABIIAIQAAAAAAAMACAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\UI\Window.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

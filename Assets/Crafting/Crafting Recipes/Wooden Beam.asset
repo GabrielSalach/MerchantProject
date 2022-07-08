@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5be26772f5564b46975897ba61aebc1, type: 3}
+  m_Name: Wooden Beam
+  m_EditorClassIdentifier: 
+  recipeName: Wooden Beam
+  ingredients:
+  - item: {fileID: 11400000, guid: 588467c0eeac23c4d88793285f7577dd, type: 2}
+    count: 2
+  - item: {fileID: 11400000, guid: f53f3463c5182cc40b151ee265da837b, type: 2}
+    count: 2
+  product:
+    item: {fileID: 11400000, guid: aba1ad2ab33e2bd4cbd8a1d7305476af, type: 2}
+    count: 1
+  craftingTime: 2

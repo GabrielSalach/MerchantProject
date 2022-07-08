@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98809d26a1ca3d4eaa308d38e543998, type: 3}
+  m_Name: Frog
+  m_EditorClassIdentifier: 
+  questName: Frog
+  questDescription: frog
+  dropTable:
+  - item: {fileID: 11400000, guid: 588467c0eeac23c4d88793285f7577dd, type: 2}
+    dropChances:
+    - count: 1
+      dropRate: 1
+    - count: 2
+      dropRate: 0.5
+  goldCost: 10
+  questArt: {fileID: 21300000, guid: 122ff24edd0b23a438ca0b0ab96c8d85, type: 3}
+  questIcon: {fileID: 21300000, guid: 9d0a30d4c5a8034418d6f4c16a848333, type: 3}
+  maxPartySize: 1
+  xpGained: 55
+  enemy: {fileID: 11400000, guid: 962bc72efef4b844a9fe61f1c84ebd9b, type: 2}
+  secondsPerTurn: 5

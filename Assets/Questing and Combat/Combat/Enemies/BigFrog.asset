@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 668f231bac7f44a45ba0b6ed4078b3d5, type: 3}
+  m_Name: BigFrog
+  m_EditorClassIdentifier: 
+  enemyName: Big Frog
+  enemyArt: {fileID: 21300000, guid: 122ff24edd0b23a438ca0b0ab96c8d85, type: 3}
+  enemyIcon: {fileID: 21300000, guid: 9d0a30d4c5a8034418d6f4c16a848333, type: 3}
+  enemyStats:
+    stats: 960000001e00000005000000140000000f0000004b00000014000000960000000a00000000000000

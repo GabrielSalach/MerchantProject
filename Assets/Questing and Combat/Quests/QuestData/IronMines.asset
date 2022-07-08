@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82fe5556391dd5b439382a6f58d699f5, type: 3}
+  m_Name: IronMines
+  m_EditorClassIdentifier: 
+  questName: Iron Mines
+  questDescription: You can mine Raw Iron here !
+  dropTable:
+  - item: {fileID: 11400000, guid: 39f7f99fd834b6e47b3ad92e53d00afb, type: 2}
+    dropChances:
+    - count: 1
+      dropRate: 1
+    - count: 2
+      dropRate: 0.3
+    - count: 3
+      dropRate: 0.05
+  goldCost: 0
+  questArt: {fileID: 21300000, guid: 296f53c47e7e1914a9a00df901e31203, type: 3}
+  questIcon: {fileID: 21300000, guid: 296f53c47e7e1914a9a00df901e31203, type: 3}
+  maxPartySize: 1
+  xpGained: 0
+  baseTimer: 2
+  maxRunLimit: 5
