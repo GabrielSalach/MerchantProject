@@ -1,5 +1,5 @@
 # MerchantProject
-Abandonned simulation/RPG set in a fantasy world where you need to manage a guild and it's members
+Abandonned simulation/RPG set in a fantasy world where you need to manage a guild and it's members using Unity version 2020.3.14f1
 
 I've been working on this project on my spare time for a few months but I took the decision to stop the development for now. 
 
